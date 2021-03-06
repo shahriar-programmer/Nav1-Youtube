@@ -1,0 +1,70 @@
+/* Color1:  #24252a */
+/* Color2:  #0088a9 */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: #24252a;
+}
+
+a{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    align-items: center;
+}
+
+.logo_p{
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: ;
+}
+
+.navbar_ul{
+    display: flex;
+}
+
+.navbar_ul li{
+    display: inline-block;
+    padding: 6px 20px;
+}
+
+.navbar_ul li a{
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.navbar_ul li a:hover{
+    color: #0088a9;
+}
+
+.btn{
+    padding: 6px 20px;
+    background-color: #0088a9;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background-color: #034f63;
+}
+
+@media screen and (max-width: 640px){
+    .navbar{
+        flex-direction: column;
+    }
+}
